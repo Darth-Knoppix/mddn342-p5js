@@ -11,3 +11,9 @@ function draw () {
   }
   ellipse(mouseX, mouseY, 80, 80);
 }
+
+function keyTyped() {
+  if (key == '!') {
+    saveBlocksImages();
+  }
+}
